@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/backgrund.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.wraper{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.login{
+    display: table-column;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    justify-content: center;
+    padding: 20px;
+}
+.title1{
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding:10px;
+}
